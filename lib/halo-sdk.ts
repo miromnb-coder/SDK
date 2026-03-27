@@ -18,7 +18,7 @@ export interface HaloAdapter {
 }
 
 class MockHaloAdapter implements HaloAdapter {
-  readonly mode = "mock" as const;
+  readonly mode: "mock" | "brilliant" = "mock";
 
   async connect() {
     await sleep(250);
