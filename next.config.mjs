@@ -1,14 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-
-  // UUSI tapa (ei enää experimental)
-  typedRoutes: true,
-
-  // Vercel + modern setup
-  experimental: {
-    serverActions: true
-  }
-};
+const nextConfig = {};
 
 export default nextConfig;
